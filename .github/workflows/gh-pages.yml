@@ -24,7 +24,7 @@ jobs:
         run: npm run build:prod
 
       - name: Create .nojekyll file
-        run: touch dist/ng-song-guesser/.nojekyll
+        run: touch dist/ngrx-create-feature/.nojekyll
 
       - name: Deploy to GitHub Pages
         if: success()
