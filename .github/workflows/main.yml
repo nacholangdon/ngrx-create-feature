@@ -44,6 +44,6 @@ jobs:
       - name: Deploy to GH Pages
         uses: crazy-max/ghaction-github-pages@v3.1.0
         with:
-          build_dir: dist/
+          build_dir: dist/ngrx-create-feature
         env:
           GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
